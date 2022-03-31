@@ -15,13 +15,13 @@ public class suicide extends AbstractCommand {
     public void execute(CommandSender sender, String label, String[] args) {
         Player player = (Player) sender;
         if (!player.hasPermission("SuicidePlugin.suicide")) {
-            player.sendMessage(SuicidePlugin.GetInstance().getConfig().getString("messages.noperm-message"));
+            player.sendMessage(SuicidePlugin.config.getString("messages.noperm-message"));
             return;
         }
         player.setHealth(0.0);
-        player.sendMessage(SuicidePlugin.GetInstance().getConfig().getString("messages.suicide-local-message"));
+        player.sendMessage(SuicidePlugin.config.getString("messages.suicide-local-message"));
 
-        Bukkit.broadcastMessage(SuicidePlugin.GetInstance().getConfig().getString("messages.suicide-global-message").replace("[player]", player.getName()));
+        Bukkit.broadcastMessage(SuicidePlugin.config.getString("messages.suicide-global-message").replace("[player]", player.getName()));
 
     }
 }
