@@ -12,3 +12,6 @@ Plugin only for Spigot
 
 **v1.2**
 - Translated all messages in the config into English
+
+**v1.3**
+- Added the ability to disable suicide messages via *config.yml* 

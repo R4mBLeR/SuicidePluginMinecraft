@@ -2,3 +2,6 @@ messages:
   noperm-message: §a§lYou cannot commit suicide
   suicide-local-message: §c§lyou committed suicide
   suicide-global-message: §4§lPlayer [player] committed suicide
+allow-messages:
+  suicide-local-message-allow: true
+  suicide-global-message-allow: true

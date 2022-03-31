@@ -19,7 +19,9 @@ public class suicide extends AbstractCommand {
             return;
         }
         player.setHealth(0.0);
-        player.sendMessage(SuicidePlugin.config.getString("messages.suicide-local-message"));
+        if (SuicidePlugin.config.getBoolean("allow-messages.suicide-local-message-allow"))
+            player.sendMessage(SuicidePlugin.config.getString("messages.suicide-local-message"));
+        if (SuicidePlugin.config.getBoolean("allow-messages.suicide-global-message-allow"))
         Bukkit.broadcastMessage(SuicidePlugin.config.getString("messages.suicide-global-message").replace("[player]", player.getName()));
 
     }
