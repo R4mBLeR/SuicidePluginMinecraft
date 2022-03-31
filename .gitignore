@@ -1,7 +1,5 @@
 # User-specific stuff
 .idea/
-.gitignore
-pom.xml
 *.iml
 *.ipr
 *.iws
@@ -97,11 +95,6 @@ $RECYCLE.BIN/
 *.lnk
 
 target/
-
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
 
 release.properties
 dependency-reduced-pom.xml
