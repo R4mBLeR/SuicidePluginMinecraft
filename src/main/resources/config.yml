@@ -1,4 +1,4 @@
 messages:
-  noperm-message: §a§lВы не можете совершить суицид, видимо, такая у вас судьба
-  suicide-local-message: §c§lВы совершили суицид
-  suicide-global-message: §4§lИгрок [player] совершил суицид
+  noperm-message: §a§lYou cannot commit suicide
+  suicide-local-message: §c§lyou committed suicide
+  suicide-global-message: §4§lPlayer [player] committed suicide
