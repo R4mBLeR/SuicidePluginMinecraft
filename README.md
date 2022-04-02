@@ -1,5 +1,6 @@
-# SuicidePluginMinecraft1.12.2
-Plugin only for Spigot
+git# SuicidePluginMinecraft
+Plugin for Spigot/Paper
+Plugin for Minecraft 1.12-18.2
 
 **RELEASES NOTES**
 
