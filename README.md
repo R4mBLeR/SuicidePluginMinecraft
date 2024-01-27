@@ -1,6 +1,6 @@
 - SuicidePluginMinecraft
 - Plugin for Spigot/Paper
-- Plugin for Minecraft 1.12-1.20.4
+- Plugin for Minecraft 1.16.5-1.20.4
 
 **RELEASES NOTES**
 
