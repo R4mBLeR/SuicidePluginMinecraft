@@ -1,6 +1,11 @@
 # User-specific stuff
 .idea/
 
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
+
 *.iml
 *.ipr
 *.iws
@@ -94,11 +99,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-target/classes
-target/generated-sources
-target/maven-archiver
-target/maven-status
 
 pom.xml.tag
 pom.xml.releaseBackup
