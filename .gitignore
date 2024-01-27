@@ -95,7 +95,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-target/
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
 
 pom.xml.tag
 pom.xml.releaseBackup
