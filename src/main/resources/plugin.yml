@@ -1,0 +1,13 @@
+name: SuicidePlugin
+version: '${project.version}'
+main: org.example.r4mblesplugins.suicideplugin.SuicidePlugin
+authors: [ R4mBLe_ ]
+api-version: '1.16'
+description: suicide is easy
+commands:
+  suicide:
+    aliases:
+      - suicide
+permissions:
+  SuicidePlugin.suicide:
+    default: true
