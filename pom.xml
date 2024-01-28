@@ -51,7 +51,7 @@
 
   <repositories>
       <repository>
-          <id>papermc-repo</id>
+          <id>papermc</id>
           <url>https://repo.papermc.io/repository/maven-public/</url>
       </repository>
       <repository>
@@ -62,7 +62,7 @@
 
   <dependencies>
       <dependency>
-          <groupId>com.destroystokyo.paper</groupId>
+          <groupId>io.papermc.paper</groupId>
           <artifactId>paper-api</artifactId>
           <version>1.20.4-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
